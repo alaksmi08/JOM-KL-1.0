@@ -145,11 +145,9 @@ li {
 	
 }
 .setar {
-	width: 450px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	float: none;
-	clear: both;
 }
 
 .review {
@@ -181,6 +179,32 @@ li {
 	margin-right: auto;
 	margin-left: auto;
 	max-width:100%;
+}
+
+
+.red {
+	color: #FFF;
+	background-color: #F00;
+	border: medium solid #000;
+}
+.kiri {
+	color: #FFF;
+	background-color: #00F;
+	border: medium solid #000;
+}
+.header {
+	color: #FFF;
+	text-align: center;
+	border: medium solid #FFF;
+}
+.odd {
+	color: #FFF;
+	text-align: center;
+}
+.bg_white {
+	color: #FFF;
+	text-align: center;
+	border: medium solid #FFF;
 }
 .food {
 	margin-left: auto;
