@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Transportation</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<!-- samsung -->
+</head>
+
+<body>
+
+  <!--Bus 4 -->
+ 
+<div data-role="page" id="transport" data-theme="a" data-inset="true">
+<div data-role="header">
+   <a href="index.html" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Transportation</h1>
+     <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+  </div>
+  
+<div data-role="content" data-inset="true">
+          <p class="pick">Pick Up Your Transportation</p>
+        <img  src="images/logo_myrapid.png" width="250" height="80">
+          
+                  <div data-role="collapsible-set" data-inset="false" data-theme="a" data-collapsed-icon="plus" data-expanded-icon="arrow-d">
+                  
+                  
+                              <div data-role="collapsible" >
+                                    <h2>MyRapid</h2>
+                                    <ul data-role="listview"  data-theme="a">
+                                        <li><a href="#bus" >Bus</a></li>                                     
+                                        <li><a href="#monorail">Monorail</a></li>
+                                        <li><a href="#lrtkelana">LRT Kelana Jaya Line</a></li>
+                                        <li><a href="#lrtampang">LRT Ampang Line</a></li>
+                                    </ul>
+                                </div>
+                                
+                                
+                                 <img src="images/logo_ktm.png" width="243" height="102">
+                                 <div data-role="collapsible">
+                                    <h2>KTM</h2>
+                                    <ul data-role="listview"  data-divider-theme="a"data-theme="a">
+                                        
+                                        
+                                      <li><a href="#Map">Route Map </a></li>
+                                        
+                                        
+                                    </ul>
+                                </div>
+                                
+                                
+                                <img src="images/taxi.jpg" width="200" height="110">
+                                <div data-role="collapsible">
+								<h2>Taxi</h2>
+								<ul data-role="listview"  data-divider-theme="a"data-theme="a">
+								<li><a href="#taxi">List of taxi</a></li>
+						
+								</ul>
+								</div>
+                  
+         </div> 
+         </div>
+                  
+                  
+  <!--Taxi -->
+  			<div data-role="collapsible" data-theme="a" data-content-theme="d">
+				<div data-role="collapsible">
+					<h2>Taxi</h2>
+					<ul data-role="listview"  data-divider-theme="a"data-theme="a">
+						<li><a href="#taxi">List of taxi</a></li>
+						
+					</ul>
+				</div>
+  
+  	</div>
+  <div data-role="footer">
+    <h4>Copyright 2013</h4>
+  </div>
+</div>
+</div>
+
+
+ 
+ 
+ <!--bus -->
+	<div data-role="page" id="bus" data-theme="b">
+           <div data-role="header">
+           <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+             <h1>Bus</h1>
+           </div>
+   
+               <div data-role="content">  
+                          
+              </div>
+   
+           <div data-role="footer">
+             <h4>Copyright &copy; 2013</h4>
+           </div>
+ 		</div>
+        
+<!--monorail -->   
+    <div data-role="page" id="monorail" data-theme="b">
+           <div data-role="header">
+           <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+             <h1>Monorail</h1>
+           </div>
+   
+               <div data-role="content">  
+              <img class="transportpic" src="images/monorail_line.gif" width="575" height="605"></div>
+   
+           <div data-role="footer">
+             <h4>Copyright &copy; 2013</h4>
+           </div>
+</div>  
+
+<!--kelana -->
+    <div data-role="page" id="lrtkelana" data-theme="b">
+               <div data-role="header">
+               <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+                 <h1>Kelana Jaya Line</h1>
+               </div>
+       
+                   <div data-role="content">  
+                  <img class="transportpic" src="images/kelanajaya_line.gif" width="575" height="605"></div>
+       
+               <div data-role="footer">
+                 <h4>Copyright &copy; 2013</h4>
+               </div>
+    </div>
+      
+<!--ampang --> 
+      <div data-role="page" id="lrtampang" data-theme="b">
+               <div data-role="header">
+               <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+                 <h1>Kelana Jaya Line</h1>
+               </div>
+       
+                   <div data-role="content">  
+                   <img class="transportpic" src="images/ampang_line.gif" width="575" height="605"></div>
+       
+               <div data-role="footer">
+                 <h4>Copyright &copy; 2013</h4>
+               </div>
+    </div> 
+    
+  
+  
+    
+<!--Ktm Map --> 
+   <div data-role="page" id="Map" data-theme="a">
+           <div data-role="header">
+           <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+             <h1>Route Map</h1>
+           </div>
+   
+               <div data-role="content"> 
+               <p class="isihotel">KTM Komuter is the FIRST electric train service in Malaysia. Introduced in August 1995, it connects Kuala Lumpur City Centre with the surrounding of the sub-urban areas such as Tanjung Malim, Rawang, Seremban, Sungai Gadut and Pelabuhan Klang. It has been a popular mode of transport that offers very reasonable fares.</p> 
+              <img class="transportpic" src="images/ktm_map.png" width="1311" height="547">
+              </div>
+   
+           <div data-role="footer">
+             <h4>Copyright &copy; 2013</h4>
+           </div>
+           
+</div>   
+
+
+
+<!--List taxi -->
+  <div data-role="page" id="taxi" data-theme="a">
+           <div data-role="header">
+           <a href="transport.html" data-icon="arrow-l" rel="external">Back</a>
+           
+             <h1>List of taxi</h1>
+           </div>
+   <div data-role="content"> 
+     
+        <div data-role="collapsible-set" data-inset="false" data-theme="a" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+            <div data-role="collapsible" >
+            <h3>Airport Limo & Taxi Service</h3>           
+             <p class="isihotel">As a professionally run company, Airport Limo has set high standards and makes their acceptance a condition of employment. 
+            All drivers and support staff at all levels of the company can therefore be relied upon to provide consistent service as part of 
+            Airport Limo's Quality Management System. </p>   
+            <a href="1300888989 " data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> tel:1300888989 </a>    
+            </div>	
+            
+            
+            
+            <div data-role="collapsible">
+            <h3>City Line Radio Taxi</h3>
+             <p class="isihotel">City Line Radio Taxi was incorporated in the            year 1993. Our drivers are well trained and can handle customers            with care. We have an extensive fleet of taxis running around            the Klang Valley, backed with a reliable service track record            that has spanned over the past decade. </p>    
+            <a href="03 9222 2828" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> tel:03 9222 2828</a> 
+                   
+           </div>
+           
+           
+           
+            
+            
+            
+            
+            <div data-role="collapsible">
+            <h3>Mesra Cab</h3> 
+             <p class="isihotel">was establish on March 2006 with 50 manpower. Our Company operates on taxi coupon counter at the Low-Cost Carrier Terminal (LCCT) located at Kuala Lumpur International Airport (KLIA), KL Sentral (CAT Terminal) and Hentian Duta.Our taxi ranges from budget taxi, premier taxi and family van. Our taxi fare is difference base on type of taxi and it's classification. </p>    
+            <a href="tel:03 4043 0659" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> tel:03 4043 0659</a>      
+            </div>
+            
+            
+            
+           
+            
+            <div data-role="collapsible">
+            <h3>Public Cab </h3> 
+            
+             <p class="isihotel">Public Cab Sdn. Bhd. was established in 1989. Beginning from the Klang Valley, our operations quickly expanded to Seremban and Johor Bahru. We are known as Seremban Cab Sdn. Bhd. and Public Cab (JB) Sdn. Bhd. respectively in these two towns.
+
+Each of our taxi is less than five years old and is fueled by either Liquid Natural Gas (LNG) for Natural Gas Vehicle (NGV) or Unleaded Petrol as part of our environment care initiative.
+ </p>    
+            <a href="1700-81-9696 " data-role="button" data-icon="info" data-iconpos="left" data-inline="true">tel: 1700-81-9696 </a>          
+            </div>
+            
+            <div data-role="collapsible">
+            <h3>Sunlight Radio Taxi </h3>
+             <p class="isihotel">Sunlight Taxi Group's business include Taxi fleet management and operations, 24 hours Radio call centre, Outdoor Mobile taxi advertising, Natural Gas Tank (NGV) installation and Maintenance Services, Taxi meter trading and maintenance services, Motorcar workshop repair services, Motor insurance agency services, Retailing of Taxis, Taxi Coupon Counter through it's subsidiaries companies.. </p>    
+            <a href="03 9057 1111" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> tel:03 9057 1111</a>       
+            </div>
+            
+            
+            <div data-role="collapsible">
+            <h3>Supercab </h3>
+             <p class="isihotel">Although the name Atherton Cabs has been well established for many years, we believe that the price of progress is to part with with your past. Along with our head office in Atherton, we have recently acquired a second office in Tyldesley and are looking to open a third office in 2011. With this is mind, we thought the time was right to change our name to coincide with this expansion and to have a name that you will remember, hence SUPERCABS. </p>   
+            <a href=" 03 2095 3399" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> tel: 03 2095 3399</a> 
+            
+            
+                   
+            </div>
+        </div>
+     
+   </div>  
+   
+       <div data-role="footer">      
+         <h4>Copyright &copy; 2013</h4>
+       </div>
+     </div>
+</body>
+</html>

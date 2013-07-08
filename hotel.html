@@ -1,0 +1,1919 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hotel</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+</head>
+
+<body>
+<!--hotel -->
+<div data-role="page" id="hotel" data-theme="a">
+  <div data-role="header">
+  <a href="index.html" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Hotel</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  
+  
+  
+  <div data-role="content"  >
+   <p class="pick">Search Hotel By</p>
+   <ul data-role="listview" data-inset="true">
+        <li><a href="#popular">Most Popular</a></li>
+        <li><a href="#price">Best Price</a></li>
+        <li><a href="#star">By Star</a></li>
+       
+     
+    </ul>
+  
+  </div>
+  <div data-role="footer">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--hotel -->
+
+
+
+<!--BY STAR -->
+<!--5 RATING -->
+<!--5rating -->
+<div data-role="page" id="star" data-theme="b" >
+
+  <div data-role="header" data-inset="true">
+  <a href="#hotel" data-icon="arrow-l" rel="external">Back</a>
+  
+    <h1>5 Star Hotel</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  <div data-role="content">
+   <ul data-role="listview" data-inset="true" >
+        
+        <div class="setar" data-role="controlgroup" data-type="horizontal" >
+<a href="#star" data-role="button">5 Star</a>
+<a href="#4star" data-role="button">4 Star</a>
+<a href="#3star" data-role="button">3 Star</a>
+</div>
+        
+        
+        
+        <li><a href="#shangrila">
+        <img  src="images/shangrila.jpg">
+        <h1>Shangri-La Kuala Lumpur</h1>
+        
+        </a>
+      </li>
+        
+        <li><a href="#mandarin">
+        <img class="thumb" src="images/mo.jpg">
+        <h1>Mandarin Oriental</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#royal">
+        <img src="images/rc.jpg">
+        <h1>The Royale Chulan</h1>
+        
+        </a>
+        </li>
+        
+         <li><a href="#westin">
+        <img src="images/westin.jpg">
+        <h1>The Westin Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#hilton">
+        <img src="images/hilton.jpg">
+        <h1>Hilton Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#ritz">
+        <img src="images/rit.jpg">
+        <h1>Ritz Carlton Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#hyatt">
+        <img src="images/hyat.jpg">
+        <h1>Grand Hyatt Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#micasa">
+        <img src="images/micasa.jpg">
+        <h1>MiCasa All Suite</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#tree">
+        <img src="images/doblehotel.jpg">
+        <h1>Double Tree by Hilton</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#intercontinental">
+        <img src="images/inter.jpg">
+        <h1>Intercontinental Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+         <li><a href="#meridien">
+        <img src="images/meri.jpg">
+        <h1>Le Meridien Kuala Lumpur</h1>
+        
+       </a>
+        </li>
+        
+        <li><a href="#majestic">
+        <img src="images/mje.jpg">
+        <h1>The Majestic Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        
+        
+        </ul>
+        
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+  
+  
+  
+  
+</div>
+<!--5rating -->
+
+
+
+<!--shangrila -->
+<div data-role="page" id="shangrila" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+    
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Shangri-La Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/sangrikamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> You wake up snug in downy soft beddings, with world famous skyscrapers, the Petronas Twin Towers, in sight, as Malaysiaís vibrant capital city bids you a fine morning. 
+
+You feel relaxed and tranquil in the luxurious guestroom at Shangri-La Hotel, Kuala Lumpur. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">11 Jalan Sultan Ismail, Kuala Lumpur, 50250, Malaysia</p>
+
+  <a href="tel:(+60)32032 2388" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)32032 2388</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--shangrila -->
+
+
+
+<!--mandarin -->
+<div data-role="page" id="mandarin" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+  
+  <p class="titlehotel"> Mandarin Oriental Kuala Lumpur </p>
+  <img class="resize" src="images/mokamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+
+
+  <p class="isihotel"> Soar above the city
+Enjoy impressive views, fabulous facilities and outstanding comfort at Kuala Lumpur’s most luxurious hotel. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">Kuala Lumpur City Centre 50088 Kuala Lumpur,Malaysia</p>
+
+ <a href="tel:(+60)323808888" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)323808888</a>
+  
+  </div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--mandarin -->
+
+
+
+
+<!--royal -->
+<div data-role="page" id="royal" data-theme="a">
+  <div data-role="header">
+    <h1>5 Star Hotel</h1>
+    <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+  </div>
+  
+  
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> The Royale Chulan </p>
+  <img class="resize" src="images/royalkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel"> The Royale Chulan Kuala Lumpur offers guests gracious Malaysian hospitality as this is one of the hallmark features of the luxurious 5-star hotel, centrally located in 
+Kuala Lumpur’s downtown business district.  As KL city’s only “traditionally inspired hotel”, The Royale Chulan Kuala Lumpur incorporates contemporary service standards 
+which charmingly merges with distinctively Malay architecture utilising rich heritage details. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">Jalan Conlay  50450 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+
+<a href="tel:(+60)326889688" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)326889688</a>
+
+</div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+  
+ <!--royal -->
+
+
+<!--Westin -->
+<div data-role="page" id="westin" data-theme="a">
+  <div data-role="header">
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+    
+  </div>
+  <div data-role="content">
+  
+  <p class="titlehotel"> The Westin Hotel </p>
+  <img class="resize" src="images/westinkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">The Westin Kuala Lumpur Hotelis a 5 star hotel located on the pulsating streets of Jalan Bukit Bintang. Its ideal location puts Kuala Lumpur’s best shopping, entertainment
+and local attractions right at your doorstep, which also includes Pavilion, KL Tower and the Petronas Twin Towers that are just minutes away. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">The Westin Kuala Lumpur  100 Jalan Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)327318333" data-role="button" data-icon="info" data-iconpos="right" data-inline="true">(+60)327318333</a>
+  
+  </div>
+  <div data-role="footer">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Westin -->
+
+
+<!--hilton -->
+<div data-role="page" id="hilton" data-theme="a">
+  <div data-role="header">
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Hilton Kuala Lumpur </p>
+  <img class="resize" src="images/hiltonkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Hilton Kuala Lumpur offers ten stellar choices for dining and lounging. Catering for every taste, each outlet has its own character. Select from various cuisines: local 
+delicacies, Japanese, Chinese, Australian fine dining, Asian noodles and barbeque favorites on the poolside. Sip wine or cocktails and dance the night away at Zeta Bar or 
+simply opt for a casual coffee chat in Caffe Cino, our 24-hour café.
+ </p>
+  
+  <p class="res"> Address : </p>
+ <p class="add">3 Jalan Stesen Sentral,Kuala Lumpur, Malaysia 50470</p>
+ 
+  <a href="tel:(+60)322642264" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)322642264</a>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--hilton -->
+
+
+
+<!--ritz -->
+<div data-role="page" id="ritz" data-theme="a">
+  <div data-role="header">
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> The Ritz Carlton Kuala Lumpur </p>
+  <img class="resize" src="images/ritkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Discover the exclusive Ritz-Carlton, Kuala Lumpur and experience a place where ancient rivers converge and a modern city beckons guests to explore the sights, sounds and flavours of Malaysia.
+ </p>
+ 
+  <p class="res"> Address : </p>
+ <p class="add">168 Jalan Imbi  Pudu, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321428000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321428000</a>
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--ritz -->
+
+
+<!--hyatt -->
+<div data-role="page" id="hyatt" data-theme="a">
+  <div data-role="header">
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+    
+  </div>
+  <div data-role="content">
+  
+  <p class="titlehotel"> Grand Hyatt Kuala Lumpur </p>
+  <img class="resize" src="images/hyattkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Experience five-star luxury at Grand Hyatt Kuala Lumpur. Our Kuala Lumpur hotel is ideally located in the city centre, adjacent to the Kuala Lumpur Convention Centre and surrounded by the 
+lush gardens of Kuala Lumpur Convention Centre Park. The hotel is also within walking distance of the entertainment district, popular shopping malls and tourist attractions, including Aquaria KLCC and KL Tower.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">12 Jalan Pinang Kuala Lumpur,  Malaysia, 50450</p>
+  
+  <a href="tel:(+60)321821234" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321821234"</a>
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--hyatt -->
+
+
+<!--Micasa All Suite -->
+<div data-role="page" id="micasa" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel"> Micasa All Suites Kuala Lumpur </p>
+  <img class="resize" src="images/micasakamar.jpg" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">is located within major embassy precinct, just a stone’s throw from Suria KLCC, a mere 2 km from KLCC Convention Centre and Bintang Walk. Kuala Lumpur being the capital and largest city in 
+Malaysia is a cultural hub for art appreciation from the Philharmonic Hall, National Theatre, Museum and art galleries. 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">368B Jalan Tun Razak, 50400 Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321798000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321798000</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Micasa All Suite -->
+
+
+
+<!--tree -->
+<div data-role="page" id="tree" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel"> Double Tree By Hilton Kuala Lumpur </p>
+  <img class="resize" src="images/doblekamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Be welcomed to DoubleTree by Hilton Hotel Kuala Lumpur with a signature warm cookie and outstanding Malaysian hospitality. Conveniently located in the heart of the Malaysian capital city and connected to The 
+Intermark office and shopping development, this Kuala Lumpur hotel is within 10 minutes’ walk of Petronas Twin Towers and Kuala Lumpur Convention Center. 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">The Intermark 348 Jalan Tun Razak, Kuala Lumpur, 50400, Malaysia</p>
+  
+ <a href="tel:(+60)321727272" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321727272</a> 
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--tre -->
+
+
+<!--intercontinental -->
+<div data-role="page" id="intercontinental" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel">Intercontinental Kuala Lumpur</p>
+  <img class="resize" src="images/interkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">A jewel in the heart of Malaysia, the hotel showcases a newly renovated, stylishly designed lobby complete with its signature element, the Concierge Lounge outfitted with cozy sofas and the latest technology 
+available for guest use, including iPads and iPod docking stations. The new Concierge Lounge showcases the brand position “In The Know” where InterContinental Hotels & Resorts are dedicated to providing local, 
+authentic and enriching travel experiences.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">165 Jalan Ampang  50450 Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321611111" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321611111</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--intercontinental -->
+
+
+<!--lemeridien -->
+<div data-role="page" id="meridien" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel">Le Meridien Kuala Lumpur</p>
+  <img class="resize" src="images/merkamar.jpg" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">Le Meridien is one of the hotels located within close proximity to many famous sites of Kuala Lumpur, such as Petronas Twin Towers, Suria KLCC and the city's famous shopping district, Bukit Bintang.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">199 Jalan Tun Razak  Pudu, 50400 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321681919" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321681919</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--lemeridien -->
+
+
+<!--majestic -->
+<div data-role="page" id="majestic" data-theme="a">
+  <div data-role="header" >
+  <a href="#star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>5 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel">The Majestic Kuala Lumpur</p>
+  <img class="resize" src="images/majestickamar.jpg" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">The Majestic Hotel Kuala Lumpur includes the original Hotel Majestic which is documented as a national heritage site under the Malaysian Antiquities Act. This colonial heritage building was built in 1932 and 
+became one of the great hotels of Kuala Lumpur in its time.
+ </p>
+ 
+  <p class="res"> Address : </p>
+ <p class="add">5 Jalan Sultan Hishamuddin, KL City Centre Malaysia.  50000 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)327858000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true">(+60)327858000</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--majestic -->
+<!--5 RATING -->
+
+
+
+<!--4 RATING -->
+<!--4 STAR RATING -->
+<div data-role="page" id="4star" data-theme="b" >
+
+  <div data-role="header" data-inset="true">
+  <a href="#hotel" data-icon="arrow-l" rel="external">Back</a>
+  
+    <h1>4 Star Hotel</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  <div data-role="content">
+   <ul data-role="listview" data-inset="true" >
+        
+        <div class="setar" data-role="controlgroup" data-type="horizontal" >
+<a href="#star" data-role="button">5 Star</a>
+<a href="#4star" data-role="button">4 Star</a>\
+<a href="#3star" data-role="button">3 Star</a>
+</div>
+        
+        
+        
+        <li><a href="#impiana">
+        <img  src="images/impiana.jpg" width="80" height="80">
+        <h1>Impiana KLCC Hotel Kuala Lumpur</h1>
+        
+        </a>
+      </li>
+        
+        <li><a href="#furama">
+        <img class="thumb" src="images/furama.jpg" width="80" height="80">
+        <h1>Furama Bukit Bintang Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#royalb">
+        <img src="images/royalee.jpg" width="80" height="80">
+        <h1>The Royale Bintang Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+         <li><a href="#melia">
+        <img src="images/melia.jpg" width="80" height="80">
+        <h1>Melia Kuala Lumpur Hotel</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#swiss">
+        <img src="images/swiss.jpg" width="80" height="80">
+        <h1>Swiss-Garden Residences Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#corus">
+        <img src="images/corus.jpg" width="80" height="80">
+        <h1>Corus Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#quality">
+        <img src="images/quality.jpg" width="80" height="80">
+        <h1>Quality Hotel City Centre Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#parkroyal">
+        <img src="images/park.jpg" width="80" height="80">
+        <h1>Parkroyal Serviced Suites Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#picolo">
+        <img src="images/picollo.jpg" width="80" height="80">
+        <h1>Picollo Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+       
+        
+        
+        </ul>
+        
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+  
+  
+  
+  
+</div>
+<!--4 STAR RATING -->
+
+
+
+
+<!--impiana -->
+<div data-role="page" id="impiana" data-theme="a">
+  <div data-role="header" >
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Impiana KLCC Hotel Kuala Lumpur</p>
+  <img class="resize" src="images/impianakamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> Offering the true essence of Malaysian hospitality and modern facilities, Impiana KLCC Hotel Kuala Lumpur is an ideal place for work and play. The convenient 
+location within the KLCC allows visitors to enjoy shopping at Suria KLCC Mall, which is 100 metres away.
+ </p>
+
+<p class="res"> Address : </p>
+ <p class="add">13 Jalan Pinang Kuala Lumpur 50450</p>
+
+  <a href="tel:(+60)321471111" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)321471111</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--impiana -->
+
+
+
+<!--Furama -->
+<div data-role="page" id="furama" data-theme="a">
+  <div data-role="header" >
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+  
+  <p class="titlehotel"> Furama Bukit Bintang Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/furamakamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+
+
+  <p class="isihotel"> Contemporary, sleek and elegant, Furama Bukit Bintang Hotel Kuala Lumpur provides deluxe accommodations and attentive service to business and leisure travellers. 
+The stylish Kuala Lumpur hotel places visitors close to the major entertainment, shopping and financial district. Vacationers can visit the iconic Petronas Twin Towers,
+ catch shows at Istana Budaya or go to the National Palace. Museum buffs can view the collections at the National Museum and National Art Gallery while others can walk 
+along Bukit Nanas Forest Reserve.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">136 Jalan Changkat Thambi Dollah Kuala Lumpur 55100</p>
+
+ <a href="tel:(+60)327888888" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)327888888</a>
+  
+  </div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Furama -->
+
+<!--picollo -->
+<div data-role="page" id="picolo" data-theme="a">
+  <div data-role="header" >
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Picollo Hotel Kuala Lumpur</p>
+  <img class="resize" src="images/impianakamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> This modern eco-friendly hotel enjoys an extremely convenient location between Lot 10 and Fahrenheit 88 Shopping Malls, just 5 minutes' walk from Bukit Bintang 
+Monorail Station. It offers free Wi-Fi and free parking.
+Fish spa treatments and body massage are available at the Morino Kaze Aromatherapy Spa. The hotel also provides daily local newspapers delivered to the rooms and laundry services.
+ </p>
+
+<p class="res"> Address : </p>
+ <p class="add">No 101, Jalan Bukit Bintang
+55100 Kuala Lumpur, Malaysia</p>
+
+  <a href="tel:(+60)321465000" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)321465000</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--picollo -->
+
+
+
+
+<!--royalb -->
+<div data-role="page" id="royalb" data-theme="a">
+  <div data-role="header">
+    <h1>4 Star Hotel</h1>
+    <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+  </div>
+  
+  
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> The Royale Bintang Kuala Lumpur </p>
+  <img class="resize" src="images/royalkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel"> The Royale Chulan Kuala Lumpur offers guests gracious Malaysian hospitality as this is one of the hallmark features of the luxurious 5-star hotel, centrally located in 
+Kuala Lumpur’s downtown business district.  As KL city’s only “traditionally inspired hotel”, The Royale Chulan Kuala Lumpur incorporates contemporary service standards 
+which charmingly merges with distinctively Malay architecture utilising rich heritage details. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">17 Jalan Bukit Bintang, Kuala Lumpur 55100, Federal Territory of Kuala Lumpur</p>
+
+<a href="tel:(+60)321439898" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321439898</a>
+
+</div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+  
+ <!--royalb -->
+
+
+<!--Melia -->
+<div data-role="page" id="melia" data-theme="a">
+  <div data-role="header">
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+    
+  </div>
+  <div data-role="content">
+  
+  <p class="titlehotel"> Melia Kuala Lumpur  </p>
+  <img class="resize" src="images/westinkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Melia Kuala Lumpur Hotel invites discerning business and leisure travellers with its deluxe accommodations, great service and central location. Shopaholics will enjoy 
+the close proximity of this luxurious hotel to shopping centres like the Low Yat Plaza, Sungei Wang Plaza and Berjaya Times Square, which features the Cosmo's World 
+indoor theme park. Holidaymakers can watch games at the nearby Stadium Merdeka or catch sporting events and concerts at the indoor Stadium Negara. The world-renowned 
+Petronas Towers is less than two kilometres away. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">16 Jalan Imbi Kuala Lumpur, Kuala Lumpur 55100</p>
+  
+  <a href="tel:
+(+60)327852828" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> 
+(+60)327852828</a>
+  
+  </div>
+  <div data-role="footer">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Melia -->
+
+
+<!--Swiss -->
+<div data-role="page" id="swiss" data-theme="a">
+  <div data-role="header">
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Swiss-Garden Residence Kuala Lumpur </p>
+  <img class="resize" src="images/swisskmr.JPG" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Swiss-Garden Residences Kuala Lumpur makes for an ideal business and leisure base in Kuala Lumpur with its chic accommodations and avant-garde facilities. Tourists 
+can enjoy a worthwhile visit to the nearby National Planetarium before hitting the exciting water attractions at Desa Water Theme Park. The hotel also places guests 
+within eight kilometres to two prominent architectural wonders, Petronas Twin Towers and Kuala Lumpur Tower.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">Swiss-Garden Hotel Kuala Lumpur  117 Jalan Pudu, 50100 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321413333" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321413333</a>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Swiss -->
+
+
+
+<!--Corus -->
+<div data-role="page" id="corus" data-theme="a">
+  <div data-role="header">
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Corus Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/coruskamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Corus Hotel Kuala Lumpur invites discerning corporate and leisure travellers to plush rooms and elegant spaces within close proximity to iconic landmarks like Petronas
+Twin Towers and KLCC. This ideal location allows visitors convenient access to most Kuala Lumpur attractions including the entertainment facilities at Bukit Bintang 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">Jalan Ampang  50450 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321618888" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321618888</a>
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Corus -->
+
+
+<!--quality -->
+<div data-role="page" id="quality" data-theme="a">
+  <div data-role="header">
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+    
+  </div>
+  <div data-role="content">
+  
+  <p class="titlehotel">Quality Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/qualitykamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Travellers exploring the Malaysia capital find convenient and comfortable base at Quality Hotel City Centre Kuala Lumpur with its central location, value-added services 
+and traditional hospitality. This Kuala Lumpur hotel places corporate guests within convenient access to Putra World Trade Centre and Kuala Lumpur Convention Centre. 
+Tourists can visit landmarks like the modern and prominent Petronas Twin Towers and the historic Merdeka Square.
+ </p>
+ 
+  <p class="res"> Address : </p>
+ <p class="add">Jalan Raja Laut Kuala Lumpur 50750</p>
+  
+  <a href="tel:(+60)26939233" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)26939233</a>
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--quality -->
+
+
+<!--Park Royal -->
+<div data-role="page" id="parkroyal" data-theme="a">
+  <div data-role="header" >
+  <a href="#4star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>4 Star Hotel</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel"> Parkroyal Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/parkkmr.JPG" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">Offering a favourable location and relaxing atmosphere, PARKROYAL Serviced Suites Kuala Lumpur is the right choice of accommodation, while visiting Kuala Lumpur. Must 
+visit attractions include Batu Caves is a limestone hill comprising three main caves and a few smaller ones, The Thean Hou Temple is one of the oldest temples in 
+Southeast Asia, Kuala Lumpur Bird Park, a sprawling 20-hectare park which houses more than 3,000 birds and 200 species from all over the world and Menara KL Tower. 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">No.1 Jalan Nagasari Off Jalan Raja Chulan Kuala Lumpur 50200</p>
+  
+  <a href="tel:(+60)320841000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)320841000</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Parkroyal -->
+<!--4 RATING -->
+
+
+
+<!--3 RATING -->
+<!--3 STAR RATING -->
+<div data-role="page" id="3star" data-theme="b" >
+
+  <div data-role="header" data-inset="true">
+  <a href="#hotel" data-icon="arrow-l" rel="external">Back</a>
+  
+    <h1>3 Star Hotel</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  <div data-role="content">
+   <ul data-role="listview" data-inset="true" >
+        
+        <div class="setar" data-role="controlgroup" data-type="horizontal" >
+<a href="#star" data-role="button">5 Star</a>
+<a href="#4star" data-role="button">4 Star</a>\
+<a href="#3star" data-role="button">3 Star</a>
+</div>
+        
+        
+        
+        <li><a href="#capitol">
+        <img  src="images/capitol.jpg" width="80" height="80">
+        <h1>Hotel Capitol Kuala Lumpur</h1>
+        
+        </a>
+      </li>
+        
+        <li><a href="#sky">
+        <img src="images/sky.jpg" width="80" height="80">
+        <h1>Sky Express Hotel Bukit Bintang</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#sentral">
+        <img src="images/sentral.jpg" width="80" height="80">
+        <h1>Hotel Sentral Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+         <li><a href="#radius">
+        <img src="images/radius.jpg" width="80" height="80">
+        <h1>Radius International Hotel</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#alor">
+        <img src="images/alor.jpg" width="80" height="80">
+        <h1>Alor Boutique Hotel</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#geo">
+        <img src="images/geo.jpg" width="80" height="80">
+        <h1>Geo Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        
+        
+       
+        
+        
+        </ul>
+        
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+  
+  
+  
+  
+</div>
+<!--3 STAR RATING -->
+
+
+
+
+<!--capitol -->
+<div data-role="page" id="capitol" data-theme="a">
+  <div data-role="header" >
+  <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>3 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Hotel Capitol Kuala Lumpur</p>
+  <img class="resize" src="images/capitolkamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> Hotel Capitol in Kuala Lumpur, Malaysia will not disappoint the discerning traveller. Here, the ultimate urban indulgence is right in the palm of your hands. 
+Enjoy easy access to the city's metropolitan gems like Pavilion KL and Berjaya Times Square. Rest inside each elegantly fitted and reasonably priced guestroom after
+ a long, eventful day of strolling around town. Or feast on a smorgasbord of local delicacies and continental dishes at the restaurant and cafe. If you're the type
+ who wants a taste of everything, Hotel Capitol will always be there to satisfy your desires in every way.
+ </p>
+
+<p class="res"> Address : </p>
+ <p class="add">Jalan Bulan  Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur
+     </p>
+
+  <a href="tel:(+60)321437000" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)321437000</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--capitol -->
+
+
+
+<!--sky -->
+<div data-role="page" id="sky" data-theme="a">
+  <div data-role="header" >
+  <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>3 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+  
+  <p class="titlehotel"> Sky Express Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/skykamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+
+
+  <p class="isihotel">Sky Express Hotel Kuala Lumpur sits in a superb and convenient location at Jalan Pudu in Kuala Lumpur, within walking distance to major shopping malls, business 
+and entertainment districts in Golden Triangle of Kuala Lumpur.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">128 Jalan Pudu  Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+
+ <a href="tel:(+60)321431133" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321431133</a>
+  
+  </div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--sky -->
+
+
+
+
+<!--sentral -->
+<div data-role="page" id="sentral" data-theme="a">
+  <div data-role="header">
+    <h1>3 Star Hotel</h1>
+    <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+  </div>
+  
+  
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Hotel Sentral Kuala Lumpur </p>
+  <img class="resize" src="images/sentralkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Hotel Sentral Kuala Lumpur offers a modern, contemporary and convenience stay in the city. The hotel's prime location also makes it easily accessible to and from 
+Kuala Lumpur International Airport (KLIA) via various modes of transport and hence, the ideal choice for business and leisure travellers. </p>
+
+<p class="res"> Address : </p>
+ <p class="add">30 Jalan Thambypillai  50470 Kuala Lumpur</p>
+
+<a href="tel:(+60)322726000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true">(+60)322726000</a>
+
+</div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+  
+ <!--sentral -->
+
+
+<!--alor -->
+<div data-role="page" id="alor" data-theme="a">
+  <div data-role="header">
+  <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>3 Star Hotel</h1>
+    
+  </div>
+  <div data-role="content">
+  
+  <p class="titlehotel"> Alor Boutique Hotel Kuala Lumpur  </p>
+  <img class="resize" src="images/alorkamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Combining a classic-yet-modern style with inspiring impression and innovative tone, the 27 rooms of Alor Boutique Hotel are accentuating comfort with relaxation. 
+To ensure every guest stay even more comfortable, we stock the room with 12 inches thick bed mattress, extra spring and additional fiber padding, equally comparable 
+to a five-star standard, for restful sleep after an exciting visit Kuala Lumpur throughout the day.  </p>
+
+<p class="res"> Address : </p>
+ <p class="add">Changkat Bukit Bintang  Bukit Bintang, 50200 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:
+(+60)362053323" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> 
+(+60)362053323</a>
+  
+  </div>
+  <div data-role="footer">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--alor -->
+
+
+<!--geo -->
+<div data-role="page" id="geo" data-theme="a">
+  <div data-role="header">
+  <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>3 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Geo Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/geokamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">With affordable rates, comfortable, convenience and attentive service, Geo Hotel promises you a pleasant and memorable stay and is indeed your best choice to experience 
+the sights, sounds and splendour of Chinatown and central Kuala Lumpur at your convenience.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">Jalan Hang Kasturi  50050 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)320322288" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)320322288</a>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--geo -->
+
+
+<!--radius -->
+<div data-role="page" id="radius" data-theme="a">
+  <div data-role="header">
+  <a href="#3star" data-icon="arrow-l" rel="external">Back</a>
+    <h1>3 Star Hotel</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Radius Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/radiuskamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Radius International Hotel Kuala Lumpur is a 3 Star Hotel located at the heart of the Golden Triangle at Bukit Bintang, with a spectacular Kuala Lumpur City view. 
+Travellers should come experience the best Radius International has to best to offer with 458 comfortable and affordable accommodation.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">51-A, Changkat Bukit Bintang  50200 Kuala Lumpur Malaysia</p>
+  
+  <a href="tel:(+60)362053323" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)362053323</a>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--radius -->
+<!--3 RATING -->
+<!--BY STAR -->
+
+
+<!--Most Popular -->
+<!-- POPULAR -->
+<div data-role="page" id="popular" data-theme="b" >
+
+  <div data-role="header" data-inset="true">
+  <a href="#hotel" data-icon="arrow-l" rel="external">Back</a>
+  
+    <h1>Most Popular</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  <div data-role="content">
+   <ul data-role="listview" data-inset="true" >
+        
+        
+        
+        
+        
+        <li><a href="#meridien1">
+        <img src="images/meri.jpg">
+        <h1>Le Meridien Kuala Lumpur</h1>
+        
+        </a>
+      </li>
+        
+        <li><a href="#corus1">
+        <img src="images/corus.jpg" width="80" height="80">
+        <h1>Corus Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#parkroyal1">
+        <img src="images/park.jpg" width="80" height="80">
+        <h1>Parkroyal Serviced Suites Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+       
+        <li><a href="#majestic1">
+        <img src="images/mje.jpg">
+        <h1>The Majestic Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        
+        
+        </ul>
+        
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+  
+  
+  
+  
+</div>
+
+<!-- POPULAR -->
+
+<!--Corus1 -->
+<div data-role="page" id="corus1" data-theme="a">
+  <div data-role="header">
+  <a href="#popular" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Most Popular</h1>
+  </div>
+  
+  <div data-role="content">
+  
+   <p class="titlehotel"> Corus Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/coruskamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+ 
+
+
+  <p class="isihotel">Corus Hotel Kuala Lumpur invites discerning corporate and leisure travellers to plush rooms and elegant spaces within close proximity to iconic landmarks like Petronas
+Twin Towers and KLCC. This ideal location allows visitors convenient access to most Kuala Lumpur attractions including the entertainment facilities at Bukit Bintang 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">Jalan Ampang  50450 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321618888" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321618888</a>
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Corus1 -->
+
+<!--lemeridien1 -->
+<div data-role="page" id="meridien1" data-theme="a">
+  <div data-role="header" >
+  <a href="#popular" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Most Popular</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel">Le Meridien Kuala Lumpur</p>
+  <img class="resize" src="images/merkamar.jpg" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">Le Meridien is one of the hotels located within close proximity to many famous sites of Kuala Lumpur, such as Petronas Twin Towers, Suria KLCC and the city's famous shopping district, Bukit Bintang.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">199 Jalan Tun Razak  Pudu, 50400 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)321681919" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321681919</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--lemeridien1 -->
+
+<!--Park Royal1 -->
+<div data-role="page" id="parkroyal1" data-theme="a">
+  <div data-role="header" >
+  <a href="#popular" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Most Popular</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel"> Parkroyal Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/parkkmr.JPG" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">Offering a favourable location and relaxing atmosphere, PARKROYAL Serviced Suites Kuala Lumpur is the right choice of accommodation, while visiting Kuala Lumpur. Must 
+visit attractions include Batu Caves is a limestone hill comprising three main caves and a few smaller ones, The Thean Hou Temple is one of the oldest temples in 
+Southeast Asia, Kuala Lumpur Bird Park, a sprawling 20-hectare park which houses more than 3,000 birds and 200 species from all over the world and Menara KL Tower. 
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">No.1 Jalan Nagasari Off Jalan Raja Chulan Kuala Lumpur 50200</p>
+  
+  <a href="tel:(+60)320841000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)320841000</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Parkroyal1 -->
+
+<!--majestic1 -->
+<div data-role="page" id="majestic1" data-theme="a">
+  <div data-role="header" >
+  <a href="#popular" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Most Popular</h1>
+  </div>
+  
+  
+  
+  <div data-role="content">
+  <p class="titlehotel">The Majestic Kuala Lumpur</p>
+  <img class="resize" src="images/majestickamar.jpg" >
+  
+  <p class="review"> Review : </p>
+ 
+ 
+
+
+  <p class="isihotel">The Majestic Hotel Kuala Lumpur includes the original Hotel Majestic which is documented as a national heritage site under the Malaysian Antiquities Act. This colonial heritage building was built in 1932 and 
+became one of the great hotels of Kuala Lumpur in its time.
+ </p>
+ 
+  <p class="res"> Address : </p>
+ <p class="add">5 Jalan Sultan Hishamuddin, KL City Centre Malaysia.  50000 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+  
+  <a href="tel:(+60)327858000" data-role="button" data-icon="info" data-iconpos="right" data-inline="true">(+60)327858000</a>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--majestic1 -->
+<!--Most Popular -->
+
+<!--PRICE -->
+<!--by Price -->
+<div data-role="page" id="price" data-theme="b" >
+
+  <div data-role="header" data-inset="true">
+  <a href="#hotel" data-icon="arrow-l" rel="external">Back</a>
+  
+    <h1>Best Price</h1>
+    <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext"></a>
+     
+        <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="b" data-display="overlay" > 
+	
+    
+    <ul data-role="listview" data-theme="a" data-inset="false">
+        <a href="index.html"><img src ="images/title.gif" width="107" height="34"></a>
+        <li><a href="klhist.html" rel="external">KL History</a></li>
+        <li><a href="map.html" rel="external">Maps</a></li>
+        <li><a href="gallery" rel="external">Gallery</a></li>
+        <li> <a href="attraction.html" rel="external" >Attraction</a></li>
+        <li><a href="hotel.html" rel="external">Hotel</a></li>
+        <li><a href="transportation.html" rel="external">Transportation</a></li>
+        <li><a href="info.html" rel="external">Info</a></li>
+    </ul>
+    
+    
+
+	
+	
+</div>
+
+  </div>
+  <div data-role="content">
+   <ul data-role="listview" data-inset="true" >
+        
+        
+        
+        
+        
+        
+        <li><a href="#furama2">
+        <img src="images/furama.jpg" width="80" height="80">
+        <h1>Furama Bukit Bintang Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#sky2">
+        <img src="images/sky.jpg" width="80" height="80">
+        <h1>Sky Express Hotel Bukit Bintang</h1>
+        
+        </a>
+        </li>
+        
+         <li><a href="#impiana2">
+        <img  src="images/impiana.jpg" width="80" height="80">
+        <h1>Impiana KLCC Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+        <li><a href="#picolo2">
+        <img src="images/picollo.jpg" width="80" height="80">
+        <h1>Picollo Hotel Kuala Lumpur</h1>
+        
+        </a>
+        </li>
+        
+       
+       
+        
+        
+        </ul>
+        
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+  
+  
+  
+  
+</div>
+
+<!--by Price -->
+
+
+<!--Furama2 -->
+<div data-role="page" id="furama2" data-theme="a">
+  <div data-role="header" >
+  <a href="#price" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Best Price</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+  
+  <p class="titlehotel"> Furama Bukit Bintang Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/furamakamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+
+
+  <p class="isihotel"> Contemporary, sleek and elegant, Furama Bukit Bintang Hotel Kuala Lumpur provides deluxe accommodations and attentive service to business and leisure travellers. 
+The stylish Kuala Lumpur hotel places visitors close to the major entertainment, shopping and financial district. Vacationers can visit the iconic Petronas Twin Towers,
+ catch shows at Istana Budaya or go to the National Palace. Museum buffs can view the collections at the National Museum and National Art Gallery while others can walk 
+along Bukit Nanas Forest Reserve.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">136 Jalan Changkat Thambi Dollah Kuala Lumpur 55100</p>
+
+ <a href="tel:(+60)327888888" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)327888888</a>
+  
+  </div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--Furama2 -->
+
+<!--sky2 -->
+<div data-role="page" id="sky2" data-theme="a">
+  <div data-role="header" >
+  <a href="#price" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Best Price</h1>
+  </div>
+  
+  
+  <div data-role="content">
+  
+  
+  <p class="titlehotel"> Sky Express Hotel Kuala Lumpur </p>
+  <img class="resize" src="images/skykamar.jpg" >
+  
+  
+ <p class="review"> Review : </p>
+
+
+  <p class="isihotel">Sky Express Hotel Kuala Lumpur sits in a superb and convenient location at Jalan Pudu in Kuala Lumpur, within walking distance to major shopping malls, business 
+and entertainment districts in Golden Triangle of Kuala Lumpur.
+ </p>
+ 
+ <p class="res"> Address : </p>
+ <p class="add">128 Jalan Pudu  Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
+
+ <a href="tel:(+60)321431133" data-role="button" data-icon="info" data-iconpos="right" data-inline="true"> (+60)321431133</a>
+  
+  </div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+<!--sky2 -->
+
+
+<!--impiana2 -->
+<div data-role="page" id="impiana2" data-theme="a">
+  <div data-role="header" >
+  <a href="#price" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Best Price</h1>
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Impiana KLCC Hotel Kuala Lumpur</p>
+  <img class="resize" src="images/impianakamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> Offering the true essence of Malaysian hospitality and modern facilities, Impiana KLCC Hotel Kuala Lumpur is an ideal place for work and play. The convenient 
+location within the KLCC allows visitors to enjoy shopping at Suria KLCC Mall, which is 100 metres away.
+ </p>
+
+<p class="res"> Address : </p>
+ <p class="add">13 Jalan Pinang Kuala Lumpur 50450</p>
+
+  <a href="tel:(+60)321471111" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)321471111</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--impiana2 -->
+
+
+<!--picollo2 -->
+<div data-role="page" id="picolo2" data-theme="a">
+  <div data-role="header" >
+  <a href="#price" data-icon="arrow-l" rel="external">Back</a>
+    <h1>Best Price</h1>
+  </div>
+  
+  
+  <div data-role="content"  >
+  
+  <p class="titlehotel"> Picollo Hotel Kuala Lumpur</p>
+  <img class="resize" src="images/impianakamar.jpg" >
+  
+  <p class="review"> Review : </p>
+  
+ 
+ 
+
+
+  <p class="isihotel"> This modern eco-friendly hotel enjoys an extremely convenient location between Lot 10 and Fahrenheit 88 Shopping Malls, just 5 minutes' walk from Bukit Bintang 
+Monorail Station. It offers free Wi-Fi and free parking.
+Fish spa treatments and body massage are available at the Morino Kaze Aromatherapy Spa. The hotel also provides daily local newspapers delivered to the rooms and laundry services.
+ </p>
+
+<p class="res"> Address : </p>
+ <p class="add">No 101, Jalan Bukit Bintang
+55100 Kuala Lumpur, Malaysia</p>
+
+  <a href="tel:(+60)321465000" data-role="button" data-icon="info" data-iconpos="left" data-inline="true"> (+60)321465000</a> 
+  
+ 
+
+</div>
+  
+  
+  <div data-role="footer" data-position="fixed">
+    <h4>Copyright &copy; 2013</h4>
+  </div>
+</div>
+
+<!--picollo2 -->
+<!--PRICE -->
+
+
+</body>
+</html>

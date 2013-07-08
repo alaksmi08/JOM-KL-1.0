@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Info</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.css" rel="stylesheet" type="text/css">
+<link href="css/themes/jomkl.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="css/jquery.jdigiclock.css" />
+<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="lib/jquery.jdigiclock.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#digiclock').jdigiclock({
+            //configuration goes here
+                clockImagesPath: 'images/clock/',
+                weatherImagesPath: 'images/weather/',
+                lang: 'en',
+                am_pm: false,
+                weatherLocationCode: 'ASI|MY|MY015|KUALA',
+                weatherMetric: 'C',
+                weatherUpdate: 0,
+                proxyType: 'php',
+			
+			
+        });
+    });
+</script>
+<!-- samsung -->
+</head>
+
+<body>
+ 
+ <!--kl history page -->
+ <div data-role="page" id="info" data-theme="a">
+   <div data-role="header">
+   <a href="index.html" data-icon="arrow-l" rel="external">Back</a>
+   
+     <h1>Info</h1>     
+   </div>
+   <div data-role="content">
+  
+  
+ <div id="digiclock"></div>
+     
+<p class="titlehotel">Travel Info</p>
+ <p class="isihotel">Kuala Lumpur is the capital of Malaysia. From its centralised position which spans 243.6 sq. kilometres, this ultra-modern nerve centre of Malaysia expands outwards to embrace the world. 
+   Discovering KL (as locals affectionately call it) is like travelling through a time tunnel. Here, vivid traces of history continue to influence and inspire a country set on becoming a fully industrialised nation by the year 2020. You will see ultra-modern skysrapers standing magnificently next to rows and rows of quaint old shophouses. Haute cuisine beside hawker stalls. <p class="isihotel">
+ <p class="titlehotel"> Tips for Shoppers   </p>
+ <p class="isihotel">It is wise to compare prices before you buy to ensure you get the best bargains. Prices in the bigger stores are usually fixed although bargaining is still practised in smaller shops and road side stalls. </p>
+ <p class="isihotel">Check for the correct voltage in electronic and electrical goods. Malaysia, uses 220 volts. Most stores however often sell electrical goods without plugs which may be fitted on request. </p>
+ 
+
+   </div>
+   <div data-role="footer">
+     <h4>Copyright &copy; 2013</h4>
+   </div>
+ </div>
+ <!--end of kl history page -->
+ 
+ 
+
+
+
+
+</body>
+</html>
